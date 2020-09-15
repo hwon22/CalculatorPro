@@ -286,9 +286,9 @@
             this.label1.Font = new System.Drawing.Font("굴림", 12F);
             this.label1.Location = new System.Drawing.Point(8, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(49, 16);
+            this.label1.Size = new System.Drawing.Size(0, 16);
             this.label1.TabIndex = 26;
-            this.label1.Text = "label1";
+            this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // Form1
             // 
